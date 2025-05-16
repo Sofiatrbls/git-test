@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de voyage</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>      
+<body>
+
+    <header>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#home">Accueil</a>
+            <a href="#packages">Offres</a>
+            <a href="#review">Retours</a>
+			<a href="page2.html" >Réservation</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Chaque voyage est une aventure unique</h3>
+            <p>Explorez des destinations exceptionnelles avec nous, l'aventure vous attend à chaque coin du monde.</p>
+			<br>
+			<br>
+            <a href="page2.html" class="btn" target="_blank">Découvrir</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-6.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-7.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-8.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-6.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>o</span>
+            <span>f</span>
+            <span>f</span>
+            <span>r</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/maldives.jpg" alt="Maldives">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Les Maldives</h3>
+                    <p>Évadez-vous sur des îles de rêve, entre lagons turquoise et villas sur l’eau.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">€500.00 <span>€650.00</span></div>
+					<br><br>
+                    <a href="#" class="btn">Réserver maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/newyork1.jpg" alt="New York">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> New York</h3>
+                    <p>Explorez la ville mythique des gratte-ciel, du shopping et de Broadway.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">€450.00 <span>€550.00</span></div>
+					<br><br>
+                    <a href="#" class="btn">Réserver maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/zanzibar.jpg" alt="Zanzibar">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Zanzibar</h3>
+                    <p>Profitez d’un havre tropical aux eaux cristallines et aux saveurs épicées.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">€550.00 <span>€650.00</span></div>
+					<br><br>
+                    <a href="#" class="btn">Réserver maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/autriche.jpg" alt="Autriche">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> L'Autriche</h3>
+                    <p>Partez à la rencontre de paysages alpins, châteaux impériaux et traditions charmantes.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">€150.00 <span>€220.00</span></div>
+					<br><br>
+                    <a href="#" class="btn">Réserver maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/grece.jpg" alt="Grèce">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> La Grèce</h3>
+                    <p>Découvrez des îles ensoleillées, des plages sublimes et un patrimoine antique unique.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">€90.00 <span>€120.00</span></div>
+					<br><br>
+                    <a href="#" class="btn">Réserver maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/dubai.jpg" alt="Dubai">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Dubai</h3>
+                    <p>Vivez le luxe ultime entre gratte-ciel, désert doré et shopping de rêve.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">€430.00 <span>€540.00</span></div>
+					<br><br>
+                    <a href="#" class="btn">Réserver maintenant</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+	<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>t</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>s</span>
+    </h1>
+
+    <div class="review-slider">
+        <div class="wrapper">
+
+            <div class="slider">
+                <div class="box">
+                    <img src="images/dora.jpg" alt="">
+                    <h3>Dora</h3>
+                    <p>"Franchement ? J’ai vu plus de pays sur ce site en 10 minutes qu’en 7 saisons de mon émission. 
+                    Même Chipeur n’a pas réussi à me voler cette trouvaille. J’ai mis mon sac à dos, j’ai cliqué, et maintenant j’ai 3 destinations dans le viseur. Vamos."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="box">
+                    <img src="images/minions.jpg" alt="">
+                    <h3>Les minions</h3>
+                    <p>"Facile, rapide, et fun. Même nous, on a trouvé où partir sans se perdre ! Franchement… on met 5 bananes sur 5."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="box">
+                    <img src="images/princesse.jpg" alt="">
+                    <h3>Princesse Sofia</h3>
+                    <p>"J’ai beau vivre dans un château enchanté, j’ai rarement vu un site aussi bien organisé. Le design ? Royal. Les destinations ? dignes d’un bal masqué dans les nuages. Je ne voyage pas sans mon carrosse… mais là j’hésite à prendre EasyJet."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="box">
+                    <img src="images/anime1.jpg" alt="">
+                    <h3>Scooby-Doo et Shaggy</h3>
+                    <p>"On a passé des années à courir dans des manoirs hantés… maintenant, je veux juste une plage, un transat et un buffet à volonté. Ce site ? C’est le Scooby-snack du tourisme. Facile, rapide, et zéro fantôme (j’ai vérifié)."</p>
+                    
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2025 - Trabelsi Sofia </p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
